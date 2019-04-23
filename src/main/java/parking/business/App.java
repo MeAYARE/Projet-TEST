@@ -25,4 +25,28 @@ public class App
 		System.out.println(f);
 		Facture.save();
 	}
+	{
+		// Programme d'exemple d'utilisation
+		Parking parking = Parking.getInstance();
+		parking.park(new Voiture("123", "sdf", "BMW", "DIPONT"), 1);
+		Facture f = new Facture(parking.unpark(parking.getLocation("123")));
+		System.out.println(f);
+		Facture.save();
+	}
+	{
+		// Programme d'exemple d'utilisation
+		Parking parking = Parking.getInstance();
+		parking.park(new Voiture("123", "sdf", "BMW", "DIPONT"), 1);
+		Facture f = new Facture(parking.unpark(parking.getLocation("123")));
+		System.out.println(f);
+		Facture.save();
+	}
+	{
+		// Programme d'exemple d'utilisation
+		Parking parking = Parking.getInstance();
+		parking.park(new Voiture("123", "sdf", "BMW", "DIPONT"), 1);
+		Facture f = new Facture(parking.unpark(parking.getLocation("123")));
+		System.out.println(f);
+		Facture.save();
+	}
 }
